@@ -1,0 +1,146 @@
+.main-div-globe {
+  background: #333;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-content-globe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.top-content-globe-text {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  
+}
+
+.main-continent-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  gap: 100px;
+}
+
+.main-continent-content-text{
+  width: 400px;
+}
+.main-continent-content-text-title{
+font-size: 40px;
+font-weight: 900;
+}
+
+.main-continent-content-text-description{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main-continent-div {
+  align-items: center;
+  display: flex;
+}
+
+.continent-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.continent-grid-image-item {
+  flex: 0 0 calc(33.33% - 16px);
+  max-width: calc(33.33% - 16px);
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 2px solid goldenrod
+}
+
+.continent-grid-image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1s, filter 1s;
+  transform-origin: left;
+  filter: brightness(100%);
+}
+
+.continent-grid-image-item img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  filter: brightness(30%);
+}
+
+.continent-grid-image-item .text-overlay {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.continent-grid-image-item:hover .text-overlay {
+  opacity: 1;
+  color: white;
+}
+
+.random-country-generator-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.random-country-generator-div-text p {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+#box {
+  background: url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/earth-2.jpg);
+  background-size: cover;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: rotating 1s linear 0s infinite;
+  box-shadow: 0 0 25px RGBA(255, 255, 255, 0.1), -8px -8px 15px #000 inset,
+    2px 2px 25px #000 inset, -25px -15px 25px RGBA(0, 0, 0, 0.5) inset,
+    25px 25px 45px RGBA(0, 0, 0, 0.45) inset;
+  margin: 4em auto;
+  transform: rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+  filter: brightness(5); /* Adjust the brightness value as needed */
+}
+
+@keyframes rotating {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 355px 0;
+  }
+}
+

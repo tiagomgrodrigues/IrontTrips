@@ -1,0 +1,112 @@
+.top-content-community-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.top-content-community {
+  background: #505050;
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.label-input-container {
+  margin-top: 20px;
+}
+
+.find-user-box {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  height: 100px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-top: 10px;
+  border: none;
+  width: 90%;
+  padding: 10px 20px;
+  display: block;
+  height: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+  outline: 0;
+  border: 2px solid goldenrod;
+  border-radius: 20px;
+  background: rgba(100, 98, 98, 0);
+}
+
+.community-box {
+  width: 1300px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  justify-content: space-between;
+  margin: -650px auto 50px auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.user-cards-row {
+  display: flex;
+  flex-wrap: wrap; 
+  overflow-x: auto;
+  max-height: 600px;
+}
+
+.user-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #daa520;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+  height: 250px;
+  width: 200px;
+  display:block;
+  
+}
+
+.user-card:last-child {
+  margin-right: 0;
+}
+
+.user-cards-row p {
+  font-size: 12px;
+}
+.user-cards-row p name {
+  font-size: 14px;
+}
+
+.goldenrod-title {
+  color: goldenrod;
+}

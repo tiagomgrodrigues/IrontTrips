@@ -1,0 +1,118 @@
+.main-div-login {
+  background-image: url(/images/bg1.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-login-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  top: 20%;
+  transform: translateY(-50%);
+  padding: 40px;
+  background-color: #505050;
+  background-size: cover;
+  box-shadow: 0px 30px 60px -5px #000;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+}
+
+.dot {
+  color: goldenrod;
+}
+
+.login form {
+  padding-top: 80px;
+}
+
+.login .text {
+  border: none;
+  width: 89%;
+  padding: 10px 20px;
+  display: block;
+  height: 15px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.login .text:focus {
+  outline: 0;
+  border: 2px solid goldenrod;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  color: #fff;
+}
+
+.custom-checkbox {
+  margin-top: 10px;
+}
+.custom-checkbox-label {
+  margin-top: 10px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.button-login {
+  background-color: goldenrod;
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.button-login:hover {
+  background: goldenrod;
+  box-shadow: 0px 4px 35px -5px goldenrod;
+  cursor: pointer;
+}
+
+.login .f-password {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  top: 5px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.login a {
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  top: 70px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  background-color: transparent;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: width 0.5s ease;
+}
+
+.navbar .material-icons {
+  font-size: 50px;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.menu-active {
+  max-height: 200px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  background-color: transparent;
+}
+
+.menu li {
+  margin: 10px 0;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.logout-button {
+  cursor: pointer;
+}

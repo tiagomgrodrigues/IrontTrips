@@ -1,0 +1,102 @@
+.countryinfo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.countryinfo-flag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.countryinfo-flag-container img {
+  min-width: 100%;
+  min-height: 100%;
+  width: 400px;
+  height: 200px;
+  border: 1px solid goldenrod;
+  border-radius: 15px;
+}
+
+.countryinfo-info-container {
+  position: relative;
+  justify-content: center; 
+  align-items: center;
+  width: 600px;
+  height: 340px;
+  margin: auto;
+  padding: 30px;
+  background-color: #505050;
+  background-size: cover;
+  box-shadow: 0px 30px 60px -5px #000;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+  margin-bottom: 20px;
+}
+
+.countryinfo-title{
+  font-size: 20px;
+  margin-top: -5px;;
+}
+
+.normal-text{
+  font-size: 15;
+  font-weight: 100;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.button-coutrydetails {
+  background-color: goldenrod;
+  color: #fff;
+  width: 200px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+.button-coutrydetails:hover {
+  background: goldenrod;
+  box-shadow: 0px 4px 35px -5px goldenrod;
+  cursor: pointer;
+}
+
+.countryinfo-buttons-div {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.warning-message {
+  color: white;
+  background-color: aqua;
+  background-color: transparent;
+  text-align: center;
+  display: none;
+  border-top: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.liked .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

@@ -1,0 +1,107 @@
+.parent-profileEdit-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.profileEdit {
+    position: relative;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #505050;
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid goldenrod;
+}
+
+.profileEdit form {
+    padding-top: 40px;
+}
+
+.profileEdit .text {
+    border: none;
+    width: 100%;
+    height: 70px;
+    padding: 20px 20px;
+    display: block;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.profileEdit .text:focus {
+    outline: 0;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.profileEdit input[type="text"],
+.profileEdit input[type="email"],
+.profileEdit input[type="number"],
+.profileEdit input[type="file"],
+.profileEdit select {
+    color: #fff;
+}
+
+.optionText {
+    color: white;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer div {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.btnContainer > .uploadImg {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+}
+
+.button-profile-card {
+    background-color: goldenrod;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.button-profile-card:hover {
+    background: goldenrod;
+    box-shadow: 0px 4px 35px -5px goldenrod;
+    cursor: pointer;
+}
+
+.editProfileContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.editProfileContainerContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.spanImg {
+    text-align: center;
+}
